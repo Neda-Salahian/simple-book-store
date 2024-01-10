@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(148, 185, 202);
+  padding: 10px;
+}
+
+h1 {
+  margin: 10px 0 20px 10px;
+  font-weight: lighter;
+}
+
+nav {
+  background-color: whitesmoke;
+  font-size: 20px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+}
+
+nav a {
+    color: blue; 
+    font-weight: bold; 
+    text-decoration: none;
+  }
+
+
+a.active {
+    color: rgb(214, 179, 23);
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+label,
+input {
+  font-size: 20px;
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 5px;
+}
+
+img {
+  width: 250px;
+}
+
+.book-title {
+  font-size: 16px;
+}
+
+.button-container {
+
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+}
+
+.reset {
+  width: 100px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+button:active {
+  background-color: azure;
+  border-radius: 10px;
+}
+
+.order-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
